@@ -1,0 +1,5 @@
+{"pages":[
+    { "file":"index.pug", "href":"/", "title":"Home", "id":"index" },
+    { "file":"twitter.pug", "href":"/twitter", "title":"Quotebot", "id":"twitter" },
+    { "file":"resume.pug", "href":"/cv", "title":"Curriculum Vitae", "id":"cv" }
+]}
