@@ -1,7 +1,21 @@
 # nodewebserver
 A simple webserver and site using nodejs, expressjs, and pugjs.
 
-This is a webserver and website built using https://nodejs.org/en/, https://expressjs.com/, and https://pugjs.org/.
-The webpage is my personal site, which can (or may one day) be found at http://arthurg.pro/.
-All assets in /static/assets/pokemon are from Pokemon Platinum and are copyright of Game Freak and Nintendo.
-Everything else is developed by me and licensed under the MIT License as it appears at https://choosealicense.com/licenses/mit/.
+follow below steps
+
+ 1. npm install
+
+ 2. node expressserver.js
+
+ 3.Open browser and hit http://localhost:8080/
+
+
+ Styles are included in head.pug and images are included in index.pug
+
+ Static images and styles are served from static folder by using the following line in expresserver.js
+
+ app.use(express.static('static'));
+
+
+
+
